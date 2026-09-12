@@ -18,12 +18,12 @@ Esse projeto é uma API REST feita com Spring Boot pra mostrar o clima de Belo H
 ```
 src/main/java/com/clima/APIclima/
 ├── controller/
-│   └── ClimaController.java   # onde fica o endpoint
+│   └── ClimaController.java  
 ├── service/
-│   └── ClimaService.java      # busca os dados na Open-Meteo e monta a resposta
+│   └── ClimaService.java      
 ├── dto/
-│   └── ClimaResponse.java     # objeto com os dados do clima que a API devolve
-└── ApIclimaApplication.java   # classe principal
+│   └── ClimaResponse.java     
+└── ApIclimaApplication.java   
 ```
 
 ## 🔑 Sobre a API Key
